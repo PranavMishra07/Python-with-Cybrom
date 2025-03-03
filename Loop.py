@@ -26,13 +26,7 @@ while(i<=num):
 print("Even Num",even)
 print("Odd Num",odd)
 # wap to find the 1,-2 +3 -4 +5 ...input taken from user
-# find factorial of any number input taken from user
-# find sum of factorial 1 + factorial 2 + factorial 3.. input taken from user
 # find the sum of factorial 1-factorial 2 + factorial 3 -....input taken from user
 # find the number of factor of any number input taken from user also show the factor
-# wap to print fibbonacci series input taken from user
-# wap to reverce the input digit input taken from user
-# wap to  sum the input digit taken from user
-# wap to check the number is prime or not in different ways taken from user
-# wap to check number is palindrom or not 
+wap to check the number is prime or not in different ways taken from user
 # wap to check number is armstrong or not 
