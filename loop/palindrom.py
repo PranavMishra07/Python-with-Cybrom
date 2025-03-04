@@ -32,5 +32,3 @@ while(n!=0):
     res=res*10+r
     n=n//10
 if(m==res):
-
-    n%10/10
