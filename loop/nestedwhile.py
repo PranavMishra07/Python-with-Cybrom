@@ -35,3 +35,28 @@
 # continue loop ko repeat
 # pass current loop ko khatam or next loop par jump
 #eval= evaluate from string and 
+
+
+
+while(True):                                   #loop start
+    n=int(input("enter number : "))            #input taken
+    if(n==1):                                  #condition
+        print("Press 1")                       #print
+    elif(n==2):                                
+        print("press 2")
+    elif(n==3):
+        print("Press 3")
+    elif(n==4):
+        print("out of the loop")
+        pass    
+    while(True):
+        print("Press 1 For addition")
+        m=int(input("Enter Number : "))              #break the loop end exit 
+        if(m==1):
+            a= eval(print("Enter First Number : "))
+            b= eval(input("Enter Second Number : "))
+           
+            
+            print(f"Addition of {a} and {b} = {a+b}")            
+            break
+        
