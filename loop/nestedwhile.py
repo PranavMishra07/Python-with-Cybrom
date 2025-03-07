@@ -36,7 +36,7 @@
 # pass current loop ko khatam or next loop par jump
 #eval= evaluate from string and 
 
-
+#escap character
 
 while(True):                                   #loop start
     n=int(input("enter number : "))            #input taken
@@ -50,13 +50,14 @@ while(True):                                   #loop start
         print("out of the loop")
         pass    
     while(True):
-        print("Press 1 For addition")
-        m=int(input("Enter Number : "))              #break the loop end exit 
+        print("Press 1 For Samosa")
+        int(input("Enter Number of Samosa you want : ",a))   
+                  
         if(m==1):
-            a= eval(print("Enter First Number : "))
-            b= eval(input("Enter Second Number : "))
-           
-            
-            print(f"Addition of {a} and {b} = {a+b}")            
+            s=m*10
+            print("Samosa Qwantity : ",m)
+            print(" Price  : "s)    
+                        
             break
         
+#for Loop
