@@ -132,10 +132,10 @@
 # A B C D
 # A B C D E
 
-for i in range(65,71):
-     for j in range(65,i+1):
-          print(chr(j),end=" ")
-     print()
+# for i in range(65,71):
+#      for j in range(65,i+1):
+#           print(chr(j),end=" ")
+#      print()
         
 
 
@@ -307,9 +307,26 @@ for i in range(65,71):
 #      print()
 
 
-for i in range(5,0,-1):  # i=5,4   
-     for k in range(5-i):  #k= 0 0  space print,1 1 space print,2 2space print
-          print("",end=" ")
-     for j in range(0,i):  #j=5  5star print,4 4 star print,3 3star print
-          print("*",end=" ")
-     print()
+# for i in range(5,0,-1):  # i=5,4   
+#      for k in range(5-i):  #k= 0 0  space print,1 1 space print,2 2space print
+#           print("",end=" ")
+#      for j in range(0,i):  #j=5  5star print,4 4 star print,3 3star print
+#           print("*",end=" ")
+#      print()
+
+# for row in range(7):
+#     for col in range(5):
+#           if (row==0 or row==3 or row==6) or (col==0 or col==4):
+#             print("*",end=" ")  
+#           else:
+#             print(" ",end=" ")              
+#     print()
+    
+
+for row in range(10):
+    for col in range(10):
+          if ( row==0 or row==4  or row==9) or (col==0 or col==6  or col==):
+            print("*",end=" ")  
+          else:
+            print("",end=" ")              
+    print()
