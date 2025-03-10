@@ -331,10 +331,11 @@
 #             print("",end=" ")              
 #     print()
     
-for row in range(10):
-    for col in range(10):
-          if ( row==0 or row==4  or row==9) or (col==0 or col==6  or col==5):
-            print("*",end=" ")  
-          else:
-            print("",end=" ")              
+for row in range(7):
+    for col in range(5):
+        if(row==0 or row==3) or (col==0 or col==4):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+                  
     print()
