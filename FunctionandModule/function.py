@@ -29,14 +29,114 @@
 # function_name()        call the function
 
 
-def noreturn_noargument():
-    a=10
-    b=20
-    c=a+b
-    print("Addition : ",c)
-noreturn_noargument()
+# def noreturn_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     print("Addition : ",c)
+# noreturn_noargument()
 
 
 # when user pass the value in the parertheses while calling the function is called argument
 
 # paramenter is a variable to accept argument from the user
+
+
+
+# No return with argument
+# def noreturnwithargument(n):
+#     for i in range(1,n+1,1):
+#         for j in range(1,i+1,1):
+#             print(j,end=" ")
+#         print()
+# noreturnwithargument(5)
+
+# def noreturnwithargument(n):
+#     for i in range(1,n+1,1):
+#         for j in range(1,i+1,1):
+#             print(i,end=" ")
+#         print()
+# noreturnwithargument(5)
+
+
+
+# def noreturnwithargument(n):
+#     for i in range(n,0,-1):
+#         for j in range(1,i+1,1):
+#             print(i,end=" ")
+#         print()
+# noreturnwithargument(5)
+
+# def noreturnwithargument(n):
+#     for i in range(n,0,-1):
+#         for j in range(1,i+1,1):
+#             print(j,end=" ")
+#         print()
+# noreturnwithargument(5)
+
+
+# def noreturnwithargument(n=10):
+#     for i in range(n,0,-1):
+#         for j in range(1,i+1,1):
+#             print(j,end=" ")
+#         print()
+# noreturnwithargument()
+
+
+
+# def noreturnwithargument(n=10):
+#     for i in range(n,0,-1):
+#         for j in range(1,i+1,1):
+#             print(i,end=" ")
+#         print()
+# noreturnwithargument()
+
+
+# hello=noreturnwithargument
+# hello()
+
+
+
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     d=a*b
+#     return c,d
+# x=return_noargument()
+# add=0
+# for i in x:
+#     add = add+i
+# print(add)
+
+
+# def return_noargument():
+#     a=10
+#     b=20
+#     c=a+b
+#     d=a*b
+#     return c,d
+# x=return_noargument()
+# # add=x[0]+x[1]
+# # print(add)
+# add=0
+# for i in x:
+#     add = add+i
+# print(add)
+
+def return_withargument(a,b):
+    c=a+b
+    d=a*b
+    return c,d
+x=return_withargument(10,20)
+add=0
+for i in x:
+    add=add+i
+print(add)
+# wap using function with all four type also use while loop and for loop to make a choice based of 20 program
+# in which ten are from pattern and ten are from arstrong strong palindrom reverse 
+# note user can exit from the program only press 21
+
+
+# types of argument
+# keyword argument default argument arbitrory argument
