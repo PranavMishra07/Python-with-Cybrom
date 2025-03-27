@@ -11,9 +11,9 @@ print(x)
 #change tuple to list
 ls=list(tupl1)
 ls.append("Append")
-ls.extend("extend")
-ls.pop(ls[0])
-print(ls)
+tupl2=["extend","green","yellow"]
+ls.extend(tupl2)
+
 # change list to tuple
 tupl1=tuple(ls)
 print(tupl1)
@@ -45,3 +45,4 @@ print(min(set1))
 print(sum(set1))
 set1.add("hello added to set")
 print(set1)
+

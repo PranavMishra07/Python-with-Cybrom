@@ -36,5 +36,19 @@ s=set()
 print(type(s))
 
 # Dictionary
-
+d={
+    100:"Ram",
+    200:"Shyam",
+    300:"Aman"
+}
+print(d)
+x=d.popitem()   #popitem delete random element (key and value) and return key and value - (300, 'Aman')
+print(x)
+y=d.pop(100)   # pop delete key value and returns deleted value Ram
+print(y)
+# d.clear()  #clear the dictionary fully empty 
+print(d)
+d[200]="How are you"   #data update if exist if not exist then add data to dictionary
+print(d)    
+# in dictionary key are unique if not then the last key will override the key we have before
 

@@ -119,3 +119,24 @@ ls=[10,20,30,40]
 ex.extend(ls)
 print(ex)
 # [1, 2, 3, 4, 5, 6, 10, 20, 30, 40]
+
+
+po=[1,2,34,4,5]
+po.pop(1)
+poped=po.pop(2)
+print(po)
+print(poped)
+# [1, 34, 4, 5]
+
+
+re=[1,2,1,4,5,6]
+re.remove(2)
+print(re)
+# re.clear()
+
+print(re)
+
+
+cnt=[1,2,3,4,4,5,6,4]
+print(cnt)
+print(cnt.count(4))
