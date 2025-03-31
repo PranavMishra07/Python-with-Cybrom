@@ -6,19 +6,20 @@
 
 # wap to print to create a class in which there will be four method inside the class and these four method of all four different userdefined datatype
 
-# class Myclass:
-#     def show():
-#         print("")
-#     def add():
-#         a=10
-#         b=20
-#         print(a+b)
-#     def subtract():
-#         a=20
-#         b=10
-#         print(a-b)
-#     def divide():
-#         a=
+class Myclass:
+    def show():
+        print("")
+    def add():
+        a=10
+        b=20
+        print(a+b)
+    def subtract():  
+        a=20
+        b=10         
+        print()
+obj1=Myclass
+obj1.add()
+obj1.subtract()
 
 
 
