@@ -102,4 +102,9 @@ elif(choose==3):
 
 # obj.showdata()
 # obj.deposit(5000)
+<<<<<<< HEAD
 # obj.withdraw(2000)
+=======
+# obj.withdraw(2000)
+# Construtor are special type of function that gets call automatically when we create an object of a class in python we create an a constructor using __init__() 
+>>>>>>> 201831275ccafe53f38a9d709c8c6b8a87473f4a

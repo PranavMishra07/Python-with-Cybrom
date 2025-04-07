@@ -44,4 +44,9 @@ print(max(set1))
 print(min(set1))
 print(sum(set1))
 set1.add("hello added to set")
+<<<<<<< HEAD
 print(set1)
+=======
+print(set1)
+
+>>>>>>> 201831275ccafe53f38a9d709c8c6b8a87473f4a

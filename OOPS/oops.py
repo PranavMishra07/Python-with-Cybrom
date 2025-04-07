@@ -14,4 +14,9 @@
 # in python for creating class you can use a class keyword
 # Object- Object is an instance variable of class.why using object- we can access properties and methods of the class in python we can create object by using frollowing syntex--
 # Objectname=className
+<<<<<<< HEAD
 # note: For accessing the member of a class we can use object with .(dot) operator
+=======
+# note: For accessing the member of a class we can use object with .(dot) operator
+
+>>>>>>> 201831275ccafe53f38a9d709c8c6b8a87473f4a

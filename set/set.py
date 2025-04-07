@@ -50,4 +50,9 @@ print(y)
 print(d)
 d[200]="How are you"   #data update if exist if not exist then add data to dictionary
 print(d)    
+<<<<<<< HEAD
 # in dictionary key are unique if not then the last key will override the key we have before
+=======
+# in dictionary key are unique if not then the last key will override the key we have before
+
+>>>>>>> 201831275ccafe53f38a9d709c8c6b8a87473f4a

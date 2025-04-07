@@ -73,4 +73,8 @@ print(st)
 # st.discard(10) #remove specific one item at a time not raise a error if parameter is not found
 # print(st.pop() )#remove randomly delete an element from the set and return it
 st.clear()
+<<<<<<< HEAD
 print(st)  #Remove all the element from the set
+=======
+print(st)  #Remove all the element from the set
+>>>>>>> 201831275ccafe53f38a9d709c8c6b8a87473f4a
