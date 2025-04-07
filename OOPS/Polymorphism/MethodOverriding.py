@@ -96,5 +96,6 @@ class TimestampLogger(Logger):
         super().log(f"{datetime.datetime.now()}:{msg}")
 logger=TimestampLogger()
 logger.log("System Started")
+# output: LOG : 2025-04-07 17:35:50.463991:System Started
 # ====================================
 
