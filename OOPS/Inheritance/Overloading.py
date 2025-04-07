@@ -1,0 +1,2 @@
+#Function Overloading : When we declare more than one function with having same name but passing parameter are defferent  type this concept is known as function overloading.
+# Function Overriding : when we declare more than one function with having same name and passing parameters are also same then this is known as Method overriding.
