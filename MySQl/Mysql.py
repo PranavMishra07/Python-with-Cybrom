@@ -13,7 +13,7 @@
 import mysql.connector
 print("connction succesfully")
 
-mydb= mysql.connector.connect(
+mydb=mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
@@ -21,14 +21,19 @@ mydb= mysql.connector.connect(
 )
 mycursor=mydb.cursor()
 print("Record Management System")
-ch=int(input("enter Your Choice"))
+ch=int(input("Enter Your Choice"))
 if ch==1:
     rollno=input("Enter Your roll No : ")
     name=input("Enter Your Name : ")
     address=input("Enter Address : ")
     class1=input("Enter Class : ")
-    sql="Insert Into data (rollno,name,address,class) values(%s,%s,%s,%s)"
+    sql="Insert into data (rollno,name,address,class) values(%s,%s,%s,%s)"
     value=[rollno,name,address,class1]
     mycursor.execute(sql,value)
     mydb.commit()
-    print("added")
+    print("added Successfully")
+
+# import mysql.connector
+
+# import mysql.connector
+
