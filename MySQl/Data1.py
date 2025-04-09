@@ -20,3 +20,4 @@ if(ch==1):
        mycursor.execute(sql,value)
        mydb.commit()
        print("added Successfully")
+       print("added Successfully")
