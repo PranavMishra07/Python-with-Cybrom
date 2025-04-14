@@ -41,5 +41,17 @@ ob=Childs()
 # ?======================================
 
 
+# ?======================================
+class Parents:
+    def __init__(self):
+        print("Parent Constructor")
+class Childs(Parents):
+    def __init__(self):
+        super().__init__()
+        print("Child Constructor")
+ob=Childs()
+# output: Parent Constructor
+#         Child Constructor
+
 
 
