@@ -38,3 +38,11 @@ obj=myclass()  # if we pass self in the function argument then we should add par
 obj.display()
 
 # Constructor is a special type of function 
+
+class myclass:
+    def display(self):  
+        print("methods of an Class")
+obj=myclass()  # if we pass self in the function argument then we should add parentheses to class while making obj obj=myclass()
+obj.display()
+
+# Constructor is a special type of function 
