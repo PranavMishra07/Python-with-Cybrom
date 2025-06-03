@@ -3,6 +3,6 @@ class myclass:
         self.para=para
     def __gt__(self,other):
         return self.para>other.para
-ob=myclass(290)
+ob=myclass(295)
 ob1=myclass(3445)
 print(ob>ob1)
