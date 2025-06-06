@@ -4,5 +4,5 @@ class myclass:
     def __gt__(self,other):
         return self.para>other.para
 ob=myclass(257)
-ob1=myclass(357)
+ob1=myclass(347)
 print(ob>ob1)
