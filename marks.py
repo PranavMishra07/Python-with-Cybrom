@@ -73,7 +73,7 @@ else:
         print(f"Physics: {p} Chemistry : {c} Maths : {m} Hindi : {h} English : {e}  ")
         print(f"Total Marks : {total_marks} , Percentage : {per}")
     elif(per<80):
-        print("1st Division 'A'Grade")
+        print("1St Division 'A'Grade")
         print(f"Physics: {p} Chemistry : {c} Maths : {m} Hindi : {h} English : {e}  ")
         print(f"Total Marks : {total_marks} , Percentage : {per}")
     else:
