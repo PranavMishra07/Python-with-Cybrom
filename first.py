@@ -20,8 +20,8 @@
 # print(f"Before Swapping The value of a={a} and b={b}")   #fstring -formating string
 # a,b=b,a
 # print(f"After Swapping The value of a={a} and b={b}")   #fstring -formating string
-num1=6
-num2=7
+num1=5
+num2=6
 print(f"Before Swapping the value of Num1 ={num1} and Num2 ={num2}")
 temp=num1
 num1=num2
