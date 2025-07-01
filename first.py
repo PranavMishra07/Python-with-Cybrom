@@ -26,7 +26,7 @@ print(f"Before Swapping the value of Num1 ={num1} and Num2 ={num2}")
 temp=num1
 num1=num2
 num2=temp
-# print(f"After Swapping the Value of Num1={num1} and Num2={num2}")
+print(f"After Swapping the Value of Num1={num1} and Num2={num2}")
 
 #age=int(input("Enter Your Age : \n"))
 # if(age<=12):
