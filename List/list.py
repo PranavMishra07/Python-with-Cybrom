@@ -21,7 +21,7 @@ l1=[1,2,3,4,5,6,"Harry",True]
 #     print("No")
 
 
-if "Har" in  "Harry":  #for "Harry" string
+if "Harr" in  "Harry":  #for "Harry" string
     print("Yes")
 else:
     print("No")
