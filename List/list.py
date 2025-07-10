@@ -1,4 +1,4 @@
-l1=[1,2,3,4,5,"Harry",True]
+l1=[1,2,3,4,5,6,"Harry",True]
 # print(type(l1))
 # print(l1)
 # print(l1[0])
@@ -21,7 +21,7 @@ l1=[1,2,3,4,5,"Harry",True]
 #     print("No")
 
 
-if "Har" in  "Harry":  #for "Harry" string
+if "Harr" in  "Harry":  #for "Harry" string
     print("Yes")
 else:
     print("No")

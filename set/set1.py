@@ -64,8 +64,7 @@
 
 st={12,13,435,45,"GHello"}
 print(st)
-# st.add("gi")  # add only one element at a time
-# print(st)
+st.add("gi")  # add only one element at a time print(st)
 
 # st.remove(12) #remove one item at a time  raises an error if not found
 # print(st)

@@ -7,3 +7,5 @@ ob=myclass(300)
 ob1=myclass(100)
 print(ob>ob1)
 print(ob<ob1)
+
+

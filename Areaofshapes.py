@@ -12,8 +12,8 @@ print(f"Area of Rectangle is : {ans}")
 
 
 #Area of triangle 
-base=int(input("Enter base of the traingle : "))
-height=int(input("Enter height of the traingle :"))
+base=int(input("Enter Base of the traingle : "))
+height=int(input("Enter Height of the traingle :"))
 ans= 1/2*base*height
 print(f"Area of Traingle is : {ans}")
 

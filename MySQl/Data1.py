@@ -19,4 +19,4 @@ if(ch==1):
        value=[Rollno,Name,Address,class1]
        mycursor.execute(sql,value)
        mydb.commit()
-       print("added Successfully")
+       print("Data Added Successfully")
