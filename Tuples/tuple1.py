@@ -1,5 +1,6 @@
 countries=("China","india","America","Japan")
 print(countries)
+print(countries)
 print(type(countries))
 list1=list(countries)
 print(list1)
