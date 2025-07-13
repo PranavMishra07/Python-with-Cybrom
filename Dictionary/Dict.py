@@ -10,3 +10,4 @@ print(info["name"])
 
 print(info.get("name"))
 print(info.get("age"))
+print(info.get("eligible"))
