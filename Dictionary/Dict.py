@@ -9,3 +9,4 @@ print(info)
 print(info["name"]) 
 
 print(info.get("name"))
+print(info.get("age"))
