@@ -32,7 +32,7 @@ print(l1[4:])  # using positive indexes  from 4rth index to till the end
 
 # Negative indexing access item from the end of the list the last item has index[-1]
 print(l1[-4:])  #using Negative Indexes 
-
+print(l1[-4:])
 print(l1[-4:-1])
 print(l1[-6:-1:2])  # print alternative index by 2
 # [1, 2, 3, 12, 123]
