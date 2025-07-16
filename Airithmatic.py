@@ -25,4 +25,4 @@ if c>max :
    max=c   
 if d>max :
  max=d
-print(f"Maximum Number is :{max}")
+print(f"Maximum  Number is :{max}")
