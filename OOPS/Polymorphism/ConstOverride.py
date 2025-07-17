@@ -6,7 +6,7 @@ class mycls:
     def __init__(self,a):
         print("This is One argument constructor")
     def __init__(self,a,b,c):
-        print(f"This is Three argument Constructor {a} {b} {c}")
+        print(f"This is Three argument Constructor"{a} {b} {c} )
 ob=mycls(12,4,5)
 # output: This is Three argument Constructor
 
