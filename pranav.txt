@@ -1,0 +1,5 @@
+pip install virtualenv - to install virtual Environment
+python -m venv myenv  - to make my environment file
+cd myenv   - to enter myenvironment
+scripts\activate - to activate Scripts
+pip install sql  - to install sql  pip install sql
