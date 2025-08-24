@@ -1,4 +1,5 @@
 l1=[1,2,3,4,5,6,"Harry",True]
+l2=[11,22,33,44]
 # print(type(l1))
 # print(l1)
 # print(l1[0])
